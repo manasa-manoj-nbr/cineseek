@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } catch (error) {
             console.log(error)
             movieResult.innerHTML = `    <div class="error-message font-inter  text-[#ff0000] text-3xl text-center p-12">
-                                        Error searching movies. Try again later!</div>`
+                                        Too many results found for the entered input. Please refine your search and try again.</div>`
         }
     }
 
